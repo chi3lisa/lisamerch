@@ -6,201 +6,6 @@
 <script type="text/javascript">
 function OptanonWrapper() { }
 </script>
-<!-- iccomotto.com に対する OneTrust Cookie 同意通知の終点 -->
-<script>
-window.CONSENT_UPDATE = window.CONSENT_UPDATE || {};
-window.CONSENT_UPDATE.uid = 'site_8bb09d33034fda04296c'
-</script>
-<script type="text/javascript">
-(function (w) {
-
-const UID_COOKIE_KEY = 'ic_uid'
-const COOKIE_MAX_AGE = 60 * 60 * 24 * 365 * 2
-
-const uid = 'site_8bb09d33034fda04296c'
-const cookieUid = w.document.cookie.split('; ').find((cookieItem) => {
-return cookieItem.split('=')[0] === UID_COOKIE_KEY
-})
-
-if (uid === '' || uid === cookieUid) {
-return
-}
-w.document.cookie = `${UID_COOKIE_KEY}=${uid}; path=/; max-age=${COOKIE_MAX_AGE}`
-})(window)
-</script>
-
-
-<script type="text/javascript">
-(function (w) {
-
-const UID_COOKIE_KEY = 'ic_uid_pa'
-const COOKIE_MAX_AGE = 60 * 60 * 24 * 365 * 2
-
-const uid = ''
-const cookieUid = w.document.cookie.split('; ').find((cookieItem) => {
-return cookieItem.split('=')[0] === UID_COOKIE_KEY
-})
-
-if (uid === '' || uid === cookieUid) {
-return
-}
-w.document.cookie = `${UID_COOKIE_KEY}=${uid}; path=/; max-age=${COOKIE_MAX_AGE}`
-})(window)
-</script>
-<!-- parts: GTM_head -->
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TZJZDHF');</script>
-<!-- End Google Tag Manager -->
-<!-- /parts: GTM_head -->
-
-    
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="ソニー・ミュージックが運営する各種サービスを、1つのIDでご利用いただける便利な会員サービスです。">
-    <meta itemprop="name" content="ソニー・ミュージック 共通IDサービス ICCOMOTTO">
-    <meta itemprop="description" content="ソニー・ミュージックが運営する各種サービスを、1つのIDでご利用いただける便利な会員サービスです。">
-    <meta itemprop="image" content="https://iccomotto.com/files/15/id/assets/img/ogp_shiro02.jpg">
-    <meta property="og:title" content="ソニー・ミュージック 共通IDサービス ICCOMOTTO">
-    <meta property="og:description" content="ソニー・ミュージックが運営する各種サービスを、1つのIDでご利用いただける便利な会員サービスです。">
-    <meta property="og:image" content="https://iccomotto.com/files/15/id/assets/img/ogp_shiro02.jpg">
-    <link rel="icon" href="https://iccomotto.com/files/15/id/assets/img/favicon.ico">
-    <link rel="shortcut icon" href="https://iccomotto.com/files/15/id/assets/img/icon-256x256.png">
-    <link rel="apple-touch-icon" href="https://iccomotto.com/files/15/id/assets/img/apple-touch-icon-256x256.png">
-
-
-<style>
-  .notes {
-    font-size: 0.694vw;
-    margin-top: 10px;
-  }
-  .pointicon_img {
-    display: inline-block;
-    width: 2vw;
-  }
-  .hasPoint_bk_img {
-    display: inline-block;
-    width: 20px;
-  }
-  .peopleicon_img {
-    display: inline-block;
-    width: 20px;
-    margin-right: 10px;
-  }
-  .hasPoint_img {
-    margin-right: 25px;
-    width: 1.8vw;
-    display: inline-block;
-  }
-  .passbook_img {
-    display: inline-block;
-    width: 1.8vw;
-    margin-right: 10px;
-    transform: translateY(-8%);
-  }
-  .passbook_img img {
-    vertical-align: middle;
-  }
-  #point .point__text > p {
-    line-height: 2;
-  }
-  .hasPoint_img img {
-    vertical-align: initial;
-  }
-  .mv__name > p {
-    vertical-align: middle;
-  }
-  .passbook_wh_img img {
-    vertical-align: middle;
-  }
-
-  #header .header__point {
-    margin-right: 1.458vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.694vw 0;
-  }
-
-  #header .header__point a {
-    font-weight: 700;
-    vertical-align: middle;
-  }
-
-  #header .header__point span.js-numberComma {
-    margin-right: 0.278vw;
-    color: #737373;
-    font-size: 1.65vw;
-    font-weight: 700;
-  }
-    #header .header__point>p.-hidden-sp  {
-    line-height: 0;
-}
-  @media (max-width: 767px) {
-    .notes {
-      font-size: 0.8em;
-      line-height: 1.6em;
-    }
-    #point .point__point > h2 > span.hasPoint_img {
-      margin-right: 1.778vw;
-      width: 7vw;
-    }
-    #header .header__point > p > span.hasPoint_bk_img {
-      margin-right: 1.15vw;
-    }
-    #header .header__point > p > span.js-numberComma {
-      padding-right: 1.8vw;
-      font-size: 7.467vw;
-    }
-    .passbook_img {
-      width: 6vw;
-      transform: translateY(-2.5%);
-    }
-.passbook_img img {
-vertical-align: bottom;
-}
-    .peopleicon_img {
-      width: 5vw;
-      margin-right: 2.5vw;
-    }
-    .pointicon_img {
-      width: 5vw;
-      margin-right: 2vw;
-    }
-    .hasPoint_bk_img {
-      width: 5vw;
-    }
-    .hasPoint_bk_img img {
-    transform: translateY(-8%);
-    vertical-align: middle;
-    }
-  .pointicon_img img {
-    vertical-align: top;
-  }
-  }
-  @media (min-width: 768px) {
-    span.js-numberComma.point_number {
-      padding-right: 0.2vw;
-    }
-  }
-  @media (min-width: 1200px) {
-    .passbook_img {
-    transform: translateY(-1%);
-    }
-    .hasPoint_bk_img img {
-    transform: translateY(2%);
-    vertical-align: middle;
-    }
-  }
-@media (min-width: 1300px){
-.hasPoint_bk_img img {
-    transform: translateY(-5%);
-}
-}
-</style>
 <style>
 /* 共通ヘッダ */
 #header .header__wrapper .header__title {
@@ -2557,6 +2362,135 @@ span {
     </div>
 </footer>
 
+<style>
+  .notes {
+    font-size: 0.694vw;
+    margin-top: 10px;
+  }
+  .pointicon_img {
+    display: inline-block;
+    width: 2vw;
+  }
+  .hasPoint_bk_img {
+    display: inline-block;
+    width: 20px;
+  }
+  .peopleicon_img {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .hasPoint_img {
+    margin-right: 25px;
+    width: 1.8vw;
+    display: inline-block;
+  }
+  .passbook_img {
+    display: inline-block;
+    width: 1.8vw;
+    margin-right: 10px;
+    transform: translateY(-8%);
+  }
+  .passbook_img img {
+    vertical-align: middle;
+  }
+  #point .point__text > p {
+    line-height: 2;
+  }
+  .hasPoint_img img {
+    vertical-align: initial;
+  }
+  .mv__name > p {
+    vertical-align: middle;
+  }
+  .passbook_wh_img img {
+    vertical-align: middle;
+  }
+
+  #header .header__point {
+    margin-right: 1.458vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.694vw 0;
+  }
+
+  #header .header__point a {
+    font-weight: 700;
+    vertical-align: middle;
+  }
+
+  #header .header__point span.js-numberComma {
+    margin-right: 0.278vw;
+    color: #737373;
+    font-size: 1.65vw;
+    font-weight: 700;
+  }
+    #header .header__point>p.-hidden-sp  {
+    line-height: 0;
+}
+  @media (max-width: 767px) {
+    .notes {
+      font-size: 0.8em;
+      line-height: 1.6em;
+    }
+    #point .point__point > h2 > span.hasPoint_img {
+      margin-right: 1.778vw;
+      width: 7vw;
+    }
+    #header .header__point > p > span.hasPoint_bk_img {
+      margin-right: 1.15vw;
+    }
+    #header .header__point > p > span.js-numberComma {
+      padding-right: 1.8vw;
+      font-size: 7.467vw;
+    }
+    .passbook_img {
+      width: 6vw;
+      transform: translateY(-2.5%);
+    }
+.passbook_img img {
+vertical-align: bottom;
+}
+    .peopleicon_img {
+      width: 5vw;
+      margin-right: 2.5vw;
+    }
+    .pointicon_img {
+      width: 5vw;
+      margin-right: 2vw;
+    }
+    .hasPoint_bk_img {
+      width: 5vw;
+    }
+    .hasPoint_bk_img img {
+    transform: translateY(-8%);
+    vertical-align: middle;
+    }
+  .pointicon_img img {
+    vertical-align: top;
+  }
+  }
+  @media (min-width: 768px) {
+    span.js-numberComma.point_number {
+      padding-right: 0.2vw;
+    }
+  }
+  @media (min-width: 1200px) {
+    .passbook_img {
+    transform: translateY(-1%);
+    }
+    .hasPoint_bk_img img {
+    transform: translateY(2%);
+    vertical-align: middle;
+    }
+  }
+@media (min-width: 1300px){
+.hasPoint_bk_img img {
+    transform: translateY(-5%);
+}
+}
+</style>
 
 </div><script type="text/javascript" id="" charset="">!function(b,c){if(void 0===c[b]){c[b]=function(){c[b].clients.push(this);this._init=[Array.prototype.slice.call(arguments)]};c[b].clients=[];for(var a=function(e){return function(){return this["_"+e]=this["_"+e]||[],this["_"+e].push(Array.prototype.slice.call(arguments)),this}},d="addRecord blockEvents fetchServerCookie fetchGlobalID fetchUserSegments resetUUID ready setSignedMode setAnonymousMode set trackEvent trackPageview trackClicks unblockEvents".split(" "),f=0;f<d.length;f++){var g=d[f];c[b].prototype[g]=
 a(g)}a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.treasuredata.com/sdk/2.5/td.min.js";d=document.getElementsByTagName("script")[0];d.parentNode.insertBefore(a,d)}}("Treasure",this);var td=new Treasure({database:"smm_dmp",writeKey:"10469/fe3c0d2fafd7dac9e0d13c96763af7daa0a3621d"});</script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div><div id="onetrust-banner-sdk" class="otFlat bottom ot-wo-title vertical-align-content" tabindex="0" style="bottom: 0px;"><div role="alertdialog" aria-describedby="onetrust-policy-text" aria-label="Privacy"><div class="ot-sdk-container"><div class="ot-sdk-row"><div id="onetrust-group-container" class="ot-sdk-eight ot-sdk-columns"><div class="banner_logo"></div><div id="onetrust-policy"><p id="onetrust-policy-text">When you visit any website, it may store or retrieve information on your browser. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.<a href="https://www.sma.co.jp/s/sma/page/privacy?ima=0000#/" aria-label="More information about your privacy">Cookie Policy</a></p></div></div><div id="onetrust-button-group-parent" class="ot-sdk-three ot-sdk-columns"><div id="onetrust-button-group"><button id="onetrust-pc-btn-handler" class="cookie-setting-link">Cookie Settings</button>  <button id="onetrust-accept-btn-handler">OK</button></div></div></div></div><!-- Close Button --><div id="onetrust-close-btn-container"><button class="onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon" aria-label="Close"></button></div><!-- Close Button END--></div></div><div id="onetrust-pc-sdk" class="otPcCenter ot-hide ot-fade-in" aria-modal="true" role="alertdialog" aria-describedby="ot-pc-desc" lang="en" aria-label="Cookie Notice"><!-- Close Button --><div class="ot-pc-header"><!-- Logo Tag --><div class="ot-pc-logo" role="img" aria-label="Company Logo"><img alt="Company Logo" src="./ICCOMOTTO.png"></div><button id="close-pc-btn-handler" class="ot-close-icon" aria-label="Close"></button></div><!-- Close Button --><div id="ot-pc-content" class="ot-pc-scrollbar"><h2 id="ot-pc-title">Cookie Notice</h2><div id="ot-pc-desc">When you visit any website, it may store or retrieve information on your browser. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.
