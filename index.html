@@ -2433,12 +2433,12 @@ span {
 
     <div class="main-contents">
       <p class="h3__text">
-      何 季儒 様
+       様
       </p>
       <h2 class="h3">
         <span class="h3__label_2">受付済み時間枠</span>
       </h2>
-      <p class="h3__text_2">
+      <p id="merchdate" class="h3__text_2">
            10月04日(土)<br>13:00〜13:20
       </p>
 
@@ -2485,8 +2485,22 @@ span {
 </ul>
 <!-- /parts: lisa_patchwalk_0927_numbered-ticket_notes -->
       </div>
-
-    </div><!-- /.main-contents -->
+    <input placeholder="お名前を" id="preFullName">
+    <input placeholder="月" id="merchmonth">
+    <input placeholder="日" id="merchday">
+    <input placeholder="曜日" id="merchyoubi">
+    <input placeholder="開始時" id="merchstarthour">
+    <input placeholder="開始分" id="merchstartminute">
+    <input placeholder="終了時" id="merchendhour">
+    <input placeholder="終了分" id="merchendminute">
+    <button id="changeFullName" onclick="var fullName = document.querySelector('#fullname'); fullName.innerHTML = preFullName.value + ' 様'; merchdate.innerHTML = merchmonth.value + '月' + merchday.value + '日(' + merchyoubi.value + ')\n' + merchstarthour.value + ':' + merchstartminute + '〜' + merchendhour + ':' + merchendminute;">変更</button>
+    </div>
+      
+      <!-- 
+      <p id="merchdate" class="h3__text_2">
+           10月04日(土)<br>13:00〜13:20
+      </p>
+      /.main-contents -->
 
   </div><!--/.contents-wrapper-->
 <!-- /HTMLテキスト:ページボディ --><footer id="footer">
